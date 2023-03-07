@@ -10,7 +10,7 @@ body {
 
 .game-intro p {
   font-size: 18px;
-  font-family: "Verdana"
+  font-family: "Verdana";
 }
 
 .logo-img {
@@ -19,6 +19,11 @@ body {
 
 .arrows-img {
   width: 150px;
+}
+
+canvas {
+  border: 1px solid black;
+  margin: 20px auto;
 }
 
 body button {
@@ -33,6 +38,10 @@ body button {
 }
 
 #game-board {
-    float: left;
-    padding: 20px 0px;
+  float: left;
+  padding: 20px 0px;
+}
+
+.car-img {
+  width: 50px;
 }
